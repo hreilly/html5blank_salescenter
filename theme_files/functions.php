@@ -463,6 +463,19 @@ function add_file_types_to_uploads($file_types){
 
 add_action('upload_mimes', 'add_file_types_to_uploads');
 
+/*------------------------------------*\
+	Custom Dashboard Widget
+\*------------------------------------*/
+
+add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
+  
+function my_custom_dashboard_widgets() {
+    global $wp_meta_boxes;
+    wp_add_dashboard_widget('custom_help_widget', 'Granville Support', 'custom_dashboard_help');
+}
+    
+function custom_dashboard_help() {
+    echo '<p>Welcome to the Granville Sales Center! Questions or suggestions? Visit the <a href="https://github.com/hreilly/sales.gvhomes.com/wiki/Support">GitHub repo</a> to view our support wiki. Contact the dev team <a href="mailto:administrator@gvhomes.com">here</a>.<br><br>Still need more info? You can also reach out to the original theme developer at this <a href="mailto:hannahreillyca@gmail.com">permanent email address</a>.</p>';
+}
+
 ?>
-
-
