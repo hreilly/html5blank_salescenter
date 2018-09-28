@@ -12,7 +12,7 @@ Because we simply needed the bare-bones structure of HTML5 Blank and would be ge
 
 ## Nota Bene: This Was Built for Chrome
 
-Since this site is only intended for a very specific use case where we could control browswer choice, there are no contingencies for browsers that don't support CSS Grid.
+Since this site is only intended for a very specific use case where we could control browser choice, there are no contingencies for browsers that don't support CSS Grid. It should function properly in any modern browser that has grid support, but hasn't been tested in that capacity.
 
 ## Features
 * Automated Workflows with ACF and CPT UI
