@@ -37,6 +37,8 @@ html {
 	font-size:62.5%;
 	max-height: 100vh;
 	scroll-behavior: smooth;
+	max-width: 100vw;
+	max-height: 100vh;
 }
 body {
 	font:400 11px/1.4 'Raleway', Helvetica, Arial, sans-serif;
@@ -119,9 +121,12 @@ input:focus {
 }
 .inner-content {
 	overflow-y: scroll;
+	overflow-x: hidden;
 	height: 81vh;
 	padding-bottom: 8vh;
 	margin: auto;
+	max-width: 100vw;
+	max-height: 100vh;
 }
 .responsive-iframe {
 	width: 100vw;
@@ -139,7 +144,7 @@ input:focus {
 }
 .footer-links {
 	margin: auto;
-	font-family: 'Cinzel';
+	font-family: 'Cinzel', serif;
 	font-size: calc(1vh + .5vw);
 	color: #ffffff;
 }
@@ -577,9 +582,9 @@ h4 {
 	color:#FFF;
 	text-shadow:none;
 }
-::-webkit-scrollbar { 
+/*::-webkit-scrollbar { 
     display: none; 
-}
+}*/
 
 /*------------------------------------*\
     WORDPRESS CORE
