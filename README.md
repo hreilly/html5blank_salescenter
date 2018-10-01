@@ -8,7 +8,7 @@ A streamlined theme that makes it easy to find maps, plans, and slideshows speci
 
 ## So Why Not a Child Theme?
 
-Because we simply needed the bare-bones structure of HTML5 Blank and would be generating almost all the individual templates, there wouldn't be much of the parent theme left. I chose full streamlined control over the future update benefits of a child theme.
+Because we simply needed the bare-bones structure of HTML5 Blank and would be generating almost all the individual templates and CSS, there wouldn't be much of the parent theme left. I chose full streamlined control over the future update benefits of a child theme.
 
 ## Nota Bene: This Was Built for Chrome
 
